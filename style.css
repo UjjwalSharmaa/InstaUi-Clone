@@ -90,8 +90,6 @@
 }
 #footer{
     width: 319px;
-    /* background-color: pink; 
-    border: 1px solid black; */
     position: absolute;
     top: 30px;
     right: 15px;
@@ -207,5 +205,81 @@
 #bottom-left-icons{
     margin-top: 15px;
 }
-#home-list{
+.post{
+    position: absolute;
+    top:130px;
+    left: 290px;
+    width: 50%;
+}
+#user-image #profile-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.post-header{
+    margin-bottom: 40px;
+}
+.post-header div{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#user-image h2{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+#user-image p{
+    font-size: 14px;
+    color: #909090;
+}
+#user-image #blue-tick{
+    width: 16px;
+    height: 16px;
+}
+#post-menu{
+    margin-left:305px ;
+}
+#post{
+    width: 43vw;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#post-footer{
+    display: flex;
+    align-items: center;
+}
+#icons{
+    margin-top: 10px;
+    font-size: 27px;
+    gap: 15px;
+}
+#icons #save{
+    margin-left: 280%;
+}
+#user-name{
+    width: 300px;
+}
+#post-desc{
+    width: 85%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#post-desc p span{
+    font-size: 15px;
+    font-weight: bold;
+}
+#comment-section{
+    margin-top: 1.5vh;
+    gap:29vw;
+}
+#comment-section #comment{
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #909090
+}
+#comment-emoji{
+    color: #909090;
 }
